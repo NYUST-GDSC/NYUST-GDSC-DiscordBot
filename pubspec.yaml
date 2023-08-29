@@ -14,6 +14,7 @@ dev_dependencies:
   test: ^1.21.0
 dependencies:
   dotenv: ^4.1.0
+  http: ^0.13.6
   nyxx: ^5.0.2
   nyxx_commands: ^5.0.2
   nyxx_interactions: ^4.6.0
