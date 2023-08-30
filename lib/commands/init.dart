@@ -8,6 +8,7 @@ import 'package:role_bot/commands/ping.dart';
 import 'package:role_bot/commands/nick.dart';
 import 'package:role_bot/commands/throw.dart';
 import 'package:role_bot/commands/help.dart';
+import 'package:role_bot/commands/me.dart';
 
 void initCommands(INyxxWebsocket bot,CommandsPlugin commands){
     var env = DotEnv(includePlatformEnvironment: true)..load();
@@ -19,4 +20,5 @@ void initCommands(INyxxWebsocket bot,CommandsPlugin commands){
     commands.addCommand(introCommands);
     commands.addCommand(helpCommands);
     commands.addCommand(commingEventsCommands);
+    commands.addCommand(meCommands);
 }
